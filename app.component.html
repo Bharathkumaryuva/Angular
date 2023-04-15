@@ -1,0 +1,40 @@
+<!--<h2>bHaRaTh</h2>
+
+<app-header></app-header>
+<button type="button" class="btn btn-outline-success">PickIt</button><br>-->
+
+<!--//string interpolation
+<p>NAME = {{name}}</p>
+<p>AGE = {{age}}</p>
+<p>VILLEGE = {{villege()}}<p>
+
+//property binding
+ <button class="btn btn-danger"[disabled]="isDisabled">Click</button>  <br><br>
+ <button class="btn btn-dark"(click)="change()">Change name</button> 
+{{names}}
+
+//Event binding
+<input type="text" (input)="changes()">
+{{name1}}-->
+
+<!--<input type="text" [(ngModel)]="name" name="text">
+{{name}}-->
+
+<!--Two way Data -->
+<!--<input type="text" [(ngModel)]="name" name="text">
+<button class="btn btn-warning" [disabled]="name === ''" (click)="change()">Enter name</button>
+<p>{{text}}</p>-->
+
+<!--Pipes-->
+<h2>{{name | uppercase}}</h2>
+<h2>{{name | lowercase}}</h2><br>
+
+<h3>{{day | date :'fullDate'}}</h3><br>
+<h4>{{200 | currency}}</h4>
+<h4>{{200 | currency:'INR'}}</h4>
+<h4>{{200 | currency:'GBP'}}</h4><br>
+
+<h2>{{name | slice:2:7}}</h2><br>
+
+<h3>{{00.564 | percent}}</h3>
+<p>{{3485.6323 | number:'5.2'}}</p>
